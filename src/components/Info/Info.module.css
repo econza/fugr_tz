@@ -1,0 +1,10 @@
+.infoWrapper {
+    max-width: 50%;
+    margin: 10px;
+    border-top: 3px solid #04AA6D;
+}
+
+.description {
+    font-style: italic;
+    margin: 5px 0
+}

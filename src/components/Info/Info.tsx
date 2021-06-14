@@ -1,5 +1,5 @@
 import React from 'react';
-
+import styles from './Info.module.css';
 import { RowData } from '../../common/types';
 
 export const Info: React.FC<RowData> = ({
@@ -9,9 +9,9 @@ export const Info: React.FC<RowData> = ({
     address
 }) => {
     return (
-        <div>
+        <div className={styles.infoWrapper}>
             <div>Выбран пользователь <strong>{firstName} {lastName}</strong></div>
-            <div>{description}</div>
+            <div className={styles.description} >{description}</div>
             {address &&
                 <div>
                     <div>Адрес проживания: <strong>{address.streetAddress}</strong></div>
