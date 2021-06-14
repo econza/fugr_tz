@@ -1,0 +1,12 @@
+.tableRow:hover {
+    background-color: #4ca2e9;
+    cursor: pointer;
+}
+
+.headerCell {
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #298ee0;
+}
